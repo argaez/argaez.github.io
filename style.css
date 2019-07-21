@@ -1,0 +1,282 @@
+* {
+  padding: 0;
+  margin: 0;
+  }
+ 
+
+p {
+  margin-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+/* Navbar */
+
+header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  }
+
+CSS
+nav {
+  float: left; 
+  padding-bottom: 50px;
+  }
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+  }
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  }
+
+nav ul li a {
+  display: block; 
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;  
+  }
+
+nav ul li:hover {
+  background: #a3aca4;
+  }
+
+
+.contenido {
+  padding-top: 80px;
+  }
+
+.imagen1 {
+  padding-top: 10px;
+  width: 50px; 
+  height: 50px;
+  }
+
+.link {
+  padding-top: 5px;
+  padding-left: 2px;
+  padding-bottom: 5px;
+  padding-right: 2px;
+  width: 50px; 
+  height: 50px;
+  }
+
+/* PORTADA */
+.row1 {
+  position: relative;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.contenedor {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  }
+
+.centrado-texto-imagen {
+  position: absolute;
+  text-align: end;
+  top: 50%;
+  font-size: 40px;
+  }
+
+.imagen12 {
+  position: absolute;
+  top: 10%;
+  left: 75%;
+  width: 300px;
+  height: 300px;
+  border-radius: 400px;
+  }
+
+.posicion-imagen12 {
+  float: left;  
+  }
+
+.imagen2 {
+  filter:alpha(opacity=60);
+  -moz-opacity: 0.3;
+  opacity: 0.3;
+  width: 1200px;
+  padding-top: 10px;
+  }
+
+/* CUERPO */
+
+.row {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagen3 {
+  width: 30%; 
+  height: 30%;
+  float: left;
+  }
+
+.fuente {
+  font-family: "brandon-grotesque",sans-serif;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+.bloque {
+  display: block;
+}
+
+/* CUERPO PROFESIONAL */
+
+.imagen4 {
+  float: left;
+  width: 120px; 
+  height: 80px;
+  padding-right: 60px;
+  padding-left: 100px;
+  }
+
+.imagen5 {
+  float: left;
+  width: 100px; 
+  height: 60px;
+  padding-right: 70px;
+  padding-left: 80px;
+  }
+
+.imagen6 {
+  float: left;
+  width: 150px; 
+  height: 130px;
+  padding-right: 60px;
+  padding-left: 50px;
+  }
+
+.imagen7 {
+  text-align: center;
+  width: 150px; 
+  height: 130px;
+  }
+
+.margen {
+  padding: 30px;
+  text-align: justify;
+  padding-bottom: 80px;
+  }
+
+.margen2 {
+  padding-right: 50px;
+  text-align: justify;
+  padding-bottom: 50px
+  }
+
+.espaciado {
+  padding-top: 50px;
+  text-align: justify;
+  }
+
+.espaciado2 {
+  padding-top: 100px;
+  text-align: left;
+  text-decoration: underline overline;
+  }
+
+.imagen8 {
+  width: 50px; 
+  height: 70px;
+  vertical-align: middle;
+  }
+
+.imagen9 {
+  width: 60px; 
+  height: 55px;
+  vertical-align: middle;
+  }
+
+/* CUERPO PERSONAL */
+
+.imagen10 {
+  width: 60px; 
+  height: 60px;
+  vertical-align: middle;
+  }
+
+/* CONTACTO */
+
+.fondo-contacto {
+  background-color: beige;
+  }
+  
+form {
+  background-color: rgb(162, 186, 196);
+  border-radius: 6px;
+  font-family: "brandon-grotesque",sans-serif; 
+  padding: 20px; 
+  margin: 0 auto;
+  width: 500px;
+  }
+  
+.fuente2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  }
+  
+.campo {
+  border: solid 1px #ccc;
+  padding: 1px;
+  border-radius: 8px;
+  padding: 10px;
+  width: 480px;
+  }
+  
+.campo:focus {
+  border-color: gray;
+  }
+  
+.boton {
+  background-color: rgb(238, 239, 241);
+  width: 70px;
+  height: 50px;
+  font-family: "sans-serif"
+  }
+  
+.boton-center {
+  padding-top: 15px;
+  text-align: center;
+  }
+
+/* FOOTER */
+
+footer {
+  background: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  color: rgb(0, 0, 0)
+  }
+
+
+.container-body {
+  display: inline-flex;
+  padding-left: 270px;
+  
+  }
+
+.fuente-footer {
+  font-family: "brandon-grotesque",sans-serif;
+  font-size: 20px;
+  padding-right: 70px;
+  }
+
+
+
+.imagen11 {
+  width: 400px; 
+  height: 350px;
+  border-radius: 20px;
+  }
